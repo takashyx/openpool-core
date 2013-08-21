@@ -85,6 +85,8 @@ void keyPressed()
     SETTING^= true;
     op.setConfigMode(SETTING);
     break;
+  case 'c':
+    op.SwapCams();
   }
 }
 

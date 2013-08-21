@@ -219,6 +219,9 @@ public void keyPressed() {
 			println("NORMAL MODE");
 		}
 		break;
+        case 'c':
+                op.SwapCams();
+                break;
 	}
 	print("FRAMERATE: ");
 	println(frameRate);

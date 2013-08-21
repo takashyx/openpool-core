@@ -352,6 +352,11 @@ void keyPressed() {
   case 'e':
     stop();
     break; 
+      
+  case 'c':
+    op.SwapCams();
+    break;
+
  
   }
   //print("FRAMERATE: ");
