@@ -165,7 +165,7 @@ void setup(){
   //op = new OpenPool(this);
   op = new OpenPool(this, "straight1.oni");
   //op = new DummyPool(this);
-  op.loadConfig("config.txt");
+  op.loadConfig();
   //op.loadConfig("libsetting.conf");
 
   invWidth = 1.0f / width;

@@ -23,7 +23,7 @@ void setup() {
   size(840, 440);
   //op = new OpenPool(this, "straight1.oni");
   op = new DummyPool(this);
-  op.loadConfig("config.txt");
+  op.loadConfig();
 }
 
 void draw() {

@@ -224,7 +224,8 @@ public class OpenPool {
                 TimeUnit.MILLISECONDS);
     }
 
-    public void loadConfig(String fileName) {
+    public void loadConfig() {
+        String fileName = "opennpoolcoresettings.txt";
         String userDir = System.getProperty("user.dir");
         String binPath = File.separatorChar + "bin";
         String filePath;

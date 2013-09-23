@@ -113,7 +113,7 @@ public void setup() {
 	
 	op = new OpenPool(this, "straight1.oni");
 	//op = new DummyPool(this);
-        op.loadConfig("config.txt");
+        op.loadConfig();
 
 	invWidth = 1.0f / width;
 	invHeight = 1.0f / height;
